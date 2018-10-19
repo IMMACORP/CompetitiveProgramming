@@ -26,7 +26,7 @@ int main() {
         
         for (int j=0; j<arr_size-i; j++) {
             sum=0;
-            for (int k=0; k<=j; k++) {
+            for (int k=0; k<=i; k++) {
                 sum+=arr[j+k];
             }
             if(max_sum<sum) max_sum=sum;
